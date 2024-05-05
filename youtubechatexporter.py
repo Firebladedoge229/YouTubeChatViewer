@@ -126,7 +126,8 @@ class YouTubeChatViewer:
                     self.master.update()
                     self.master.after(25) # slight delay to prevent cpu overconsumption
                 except RuntimeError:
-                    pass # program most likely closed
+                    # program most likely closed
+                    pass
 
     def filter_profanity(self, message):
         profanity_list_url = "https://raw.githubusercontent.com/dsojevic/profanity-list/main/en.txt" # oh god
