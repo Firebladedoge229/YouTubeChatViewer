@@ -24,7 +24,7 @@ jobs:
       run: |
         pip install pyinstaller
     - name: Build executable
-      run: pyinstaller --onefile --noconsole --icon=icon.ico --add-data="icon.ico;." --add-data="sv_ttk;sv_ttk" youtubechatexporter.py
+      run: pyinstaller --onefile --noconsole --icon=icon.ico --add-data="icon.ico;." --add-data="sv_ttk;sv_ttk" youtubechatviewer.py
 
     - name: Create Release
       id: create_release
