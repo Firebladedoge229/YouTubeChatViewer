@@ -22,6 +22,8 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pip install pytchat
+        pip install requests
         pip install pyinstaller
     - name: Build executable
       run: pyinstaller --onefile --noconsole --icon=icon.ico --add-data="icon.ico;." --add-data="sv_ttk;sv_ttk" youtubechatviewer.py
