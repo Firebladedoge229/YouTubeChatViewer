@@ -2,6 +2,9 @@
 
 # YouTube Chat Viewer
 
+> [!CAUTION]
+> This repository is no longer maintained. Navigate to [YouTube Livestream Keybinds](https://github.com/Firebladedoge229/YouTubeLivestreamKeybinds) for an updated fork.
+
 Lightweight application for viewing YouTube chat in a livestream.
 
 ![Showcase](https://i.ibb.co/3FNZThy/You-Tube-Chat-Viewer-b1.png)
